@@ -22,7 +22,9 @@
 
 
 
-4. What are three different key/value pairs that will be needed for each listing?
+4. Think about what data we would need to know for each Airbnb listing. Recall that a Javascript object is a collection of key/value pairs. 
+
+What are three different key/value pairs that will be needed for each listing?
 
 
 
@@ -31,5 +33,34 @@
 
 
 
-5. What JavaScript could we write to filter the objects based on whether or not the listing has a pool?
+5. Let's say we want to only see Airbnb listings that have a pool. In other words, we want to filter out all of the listings that do not have pools. Can you write some pseudo-code to accomplish this? 
+
+Below is an example of Airbnb listing data that we would work with. 
  */
+
+airbnbListings = [
+  {
+    id: 1,
+    title: "Amazing Views Airbnb",
+    location: "Oakland, California",
+    hasPool: true,
+    beachfront: false,
+    lakeFront: true,
+  },
+  {
+    id: 2,
+    title: "Beachfront Paradise",
+    location: "Miami, Florida",
+    hasPool: true,
+    beachfront: true,
+    lakeFront: false,
+  },
+  {
+    id: 3,
+    title: "Cozy Forest Cabin",
+    location: "Burlington, Vermont",
+    hasPool: false,
+    beachfront: false,
+    lakeFront: false,
+  },
+];
