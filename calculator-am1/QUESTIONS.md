@@ -8,4 +8,4 @@
 4. Does App have any grandchildren? How do you know?
 5. What do you notice about the css files?
 6. How are the css files connected to the js files? (Look at the top of the js files for clues)
-7. Look for an HTML file. What do you notice? What do you find?
+7. Look for an HTML file. What do you notice about it? 
