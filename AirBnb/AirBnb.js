@@ -1,22 +1,24 @@
 /**
  Using the image of the Airbnb UI, answer the following questions:
  1. What are four main components you see on the page?
-
+// Nav bar
+// Pages like when you click on the nav
+// the header
 
 
 
 
  2. Put the components in order to show the parent/child relationship. So if component x is the mother of y and grandmother of z, you would write: 
-    1. x
-    2. y
-    3. z
+    1. x = grandmother /head honcho
+    2. y = mother/child
+    3. z = grandchild/ child 
 
 
 
 
 3. Which component needs access to every piece of data? Which component only needs access to the filtered data?
 
-
+// Grand of all conponents using the exaple above  X being the grandmother she will have all the data  and y&z will get filterd data 
 
 
 
@@ -27,8 +29,8 @@
 What are three different key/value pairs that will be needed for each listing?
 
 
-
-
+// name ,discription ,image/images and price
+  
 
 
 
